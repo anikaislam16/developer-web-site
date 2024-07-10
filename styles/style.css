@@ -142,8 +142,7 @@ nav {
   margin: 0px 100px;
   margin-top: 50px;
   margin-bottom: 20px;
-
-  padding: 30px;
+  text-align: center;
   border-radius: 16px;
 }
 .target-header {
@@ -152,6 +151,8 @@ nav {
   color: #0d1321;
 }
 .items {
+  margin: 50px 0px;
+  text-align: left;
   display: flex;
   gap: 24px;
 }
@@ -173,4 +174,40 @@ nav {
 }
 .js {
   background-color: #fffdf2;
+}
+/*picture section*/
+.pic {
+  margin: 0px 100px;
+  margin-bottom: 50px;
+  background-image: url("../asset/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.pic .content {
+  padding: 0px 150px;
+}
+.pic .content h3 {
+  color: white;
+  margin-top: 70px;
+  font-weight: bold;
+  font-size: 32px;
+}
+.pic .content .character {
+  color: white;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.input-field {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 8px;
 }
