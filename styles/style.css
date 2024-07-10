@@ -80,6 +80,8 @@ nav {
   padding: 20px;
   align-items: center;
   margin: 10px 0px;
+  background-color: #fdfdfd;
+  border-radius: 16px;
   justify-content: space-between;
 }
 /* .web-dev .web-dev-1 img {
@@ -87,10 +89,8 @@ nav {
   max-width: 200px;
 } */
 .web-dev-content {
-  border-radius: 16px;
   font-size: 16px;
   padding: 20px;
-  background-color: #fdfdfd;
   width: 450px;
 }
 
