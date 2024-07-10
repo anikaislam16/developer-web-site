@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/style.css" />
     <title>Web Developer Website</title>
   </head>
+
   <body class="azeret-mono-normal">
     <header class="azeret-mono-normal">
       <nav>
@@ -32,9 +33,15 @@
           continue my passion for becoming a top-rated coder in the best way
           possible.
         </p>
-        <button class="btn-primary-black azeret-mono-normal">
+        <form onsubmit="mylinkfunction(event)">
+           <button
+          class="btn-primary-black azeret-mono-normal"
+          type="submit"
+        >
           Contact with me
         </button>
+        </form>
+       
       </div>
     </div>
     <main>
@@ -55,9 +62,11 @@
               Coding is the great way to learn how to think, create and
               innovate.
             </p>
+              <a href="https://www.w3schools.com/whatis/" target="_blank"> 
             <button class="btn-primary-learn azeret-mono-normal">
               Learn More
             </button>
+            </a>
           </div>
           <img src="asset/Layer_1.png" alt="person" />
         </section>
@@ -68,9 +77,10 @@
               I will help people by creating Modern Web System
             </h3>
             <p>Web Applications are a great way to earn money.</p>
-            <button class="btn-primary-learn azeret-mono-normal">
+              <a href="https://www.w3schools.com/whatis/" target="_blank"> <button class="btn-primary-learn azeret-mono-normal">
               Learn More
-            </button>
+            </button></a>
+           
           </div>
         </section>
         <section class="web-dev-1">
@@ -80,9 +90,11 @@
               Coding is the great way to learn how to think, create and
               innovate.
             </p>
+            <a href="https://www.w3schools.com/whatis/" target="_blank">
             <button class="btn-primary-learn azeret-mono-normal">
               Learn More
             </button>
+            </a>
           </div>
           <img src="asset/Group 4.png" alt="person" />
         </section>
@@ -168,7 +180,7 @@
       </section>
     </main>
     <footer>
-      <div class="foot">
+      <div class="foot" id="foot">
         <p>An open commitment by Anika Islam</p>
         <div class="links">
           <a href="https://www.facebook.com/anikaislamanokhee/" target="_blank">
@@ -186,5 +198,14 @@
         </div>
       </div>
     </footer>
+      <script type-"text/javascript">
+
+       function mylinkfunction(e) {
+            e.preventDefault();
+            e.stopPropagation();
+              document.getElementById('foot').scrollIntoView({ behavior: 'smooth' });
+        }
+
+     </script>
   </body>
 </html>
