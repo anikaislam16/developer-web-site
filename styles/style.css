@@ -202,12 +202,32 @@ nav {
 }
 .input {
   display: flex;
+  margin: 20px;
   justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 .input-field {
   width: 400px;
-  height: 40px;
+  height: 30px;
+
   padding: 10px;
   border-radius: 8px;
+}
+/*footer*/
+.foot {
+  display: flex;
+  background-color: #f3eeee;
+
+  padding: 0px 100px;
+  border-radius: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+.foot p {
+  font-weight: 600;
+  font-size: 20px;
+}
+.links a {
+  text-decoration: none;
 }
