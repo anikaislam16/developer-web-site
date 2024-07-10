@@ -53,18 +53,27 @@ nav {
   border-radius: 5px;
   padding: 17px 24px;
 }
+/* Web Development Section*/
 .web-dev {
-  margin: 50px 100px;
+  margin: 0px 100px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   background-color: #f9fafc;
-  padding: 30px 50px;
+  padding: 30px 100px;
   border-radius: 16px;
 }
 .web-dev .title {
   text-align: center;
 }
-.web-dev .title h2 {
+.header {
   font-weight: bolder;
   font-size: 32px;
+  text-align: center;
+}
+.header-content {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0d1321;
 }
 .web-dev .web-dev-1 {
   display: flex;
@@ -73,16 +82,16 @@ nav {
   margin: 10px 0px;
   justify-content: space-between;
 }
-.web-dev .web-dev-1 img {
+/* .web-dev .web-dev-1 img {
   max-height: 200px;
   max-width: 200px;
-}
+} */
 .web-dev-content {
   border-radius: 16px;
   font-size: 16px;
   padding: 20px;
   background-color: #fdfdfd;
-  width: 350px;
+  width: 450px;
 }
 
 .btn-primary-learn {
@@ -100,4 +109,65 @@ nav {
 .web-dev .web-dev-2 .web-dev-content {
   width: 450px;
   margin-left: 10px;
+}
+.characters {
+  font-size: 16px;
+}
+/*My Insipiration Section*/
+.my-insipiration {
+  margin: 0px 100px;
+  margin-top: 50px;
+
+  margin-bottom: 20px;
+}
+.content {
+  align-items: center;
+  text-align: center;
+}
+.video-container {
+  border-radius: 16px;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+  height: 500px;
+  border: 1px solid rgb(201, 198, 198);
+}
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+.video-container iframe {
+  text-align: center;
+  border-radius: 16px;
+}
+/*Target Section*/
+.target {
+  margin: 0px 100px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  padding: 30px;
+  border-radius: 16px;
+}
+.target-header {
+  font-weight: bolder;
+  font-size: 20px;
+  color: #0d1321;
+}
+.items {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  border-radius: 16px;
+}
+.skill a {
+  text-decoration: underline;
+  text-decoration-color: black;
+  color: black;
+  font-weight: bold;
+}
+.html {
+  background-color: #fae4e0;
 }
